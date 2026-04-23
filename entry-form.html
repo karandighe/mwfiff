@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.mwfiff.com/entry-form.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Apr 2026 04:16:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<!-- Basic Page Needs -->
+<meta charset="utf-8">
+<title>Moonwhite Films International Film Fest - MWFIFF</title>
+<meta name="keywords" content="Moonwhite Films, Film Festival, International Film Festival, film makers, Art of film making, Film Industry" />
+<meta name="description" content="The purpose of this film festival is to promote new film makers, students, professional by exchanging of knowledge, information, cultures & ideas between National & International in the context of their social and cultural ethos. MWFIFF would love to promotes friendship and co-operation among people around the world through the medium of films & documentaries etc.">
+<meta name="author" content="2code.info">
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Main Style -->
+<link rel="stylesheet" href="style.css">
+<!-- Skins -->
+<link rel="stylesheet" href="css/skins/skins.css">
+<!-- Responsive Style -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Favicons -->
+<link rel="shortcut icon" href="images/small.png">
+<script language="javascript">
+var submitcount=0;
+function checkFields() { 
+var ch_cap=document.getElementById("ch_cap").value;
+if(ch_cap=="1") { 
+document.getElementById("captcha_code").focus();
+return false;
+	}
+else {
+	document.getElementById("captcha_code").setCustomValidity('');	 }
+
+var aa=document.getElementById("myfile").value;
+var bb=document.getElementById("myfile2").value;
+var cc=document.getElementById("myfile3").value;
+var dd=document.getElementById("myfile4").value;
+if(aa=="" || bb=="" || cc=="" || dd=="") { 
+{ 
+	var retVal = confirm("Are you sure you want to submit without attaching all 4 files ?");
+    if (retVal == true) 
+	{
+		window.location.href="mail-3.html";
+	}
+	else
+	{
+		document.getElementById("myfile").focus();
+		return false;
+	}
+}
+}
+</script>
+<script>
+ function hour_validate() {
+  var hours = document.getElementById("hr_1").value;
+  
+  if(hours>=7){
+    //alert(hours);
+    document.getElementById("hr_1_err").style.display="block";
+    document.getElementById("hr_1_err").innerHTML = "Maximum 6 hours are allowed";
+    document.getElementById("hr_1_err").style.color="red";
+    document.getElementById("hr_1_err").style.fontSize="13px";
+    document.getElementById("hr_1_err").style.overflow="visible";
+
+  }
+  if(hours<7){
+    //alert(hours);
+    document.getElementById("hr_1_err").style.display="none";
+  }
+
+} 
+
+</script>
+
+</head>
+<body>
+<div class="loader">
+  <div class="loader_html"></div>
+</div>
+<div id="wrap" class="grid_1200">
+  <header id="header-top">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="phone-email"><i class="fa fa-phone"></i><a style="color:#ACACAC" href="tel:+919920307879">+ 91 - 9920 -  307 - 879</a></div>
+          <div class="phone-email phone-email-2"><i class="fa fa-envelope"></i><a href="mailto:contact@mwfiff.com">contact@mwfiff.com</a></div>
+        </div>
+        <div class="col-md-6">
+          <div class="social-ul">
+            <ul>
+              <li class="social-facebook"><a href="https://www.facebook.com/Mwfiff-1504902836296421/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="social-twitter"><a href="https://twitter.com/mwfiff" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="social-youtube"><a href="https://www.youtube.com/channel/UC0bjxmsags54JmGp_uFCI2g" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+              <li class="social-instagram"><a href="https://www.instagram.com/mwfiff/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li class="social-pinterest"><a href="https://www.pinterest.com/mwfiff/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+              <li class="social-linkedin"><a href="https://www.linkedin.com/in/mwfiff-moonwhite-films-international-film-fest-b91488157/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li class="social-vimeo"><a href="https://vimeo.com/mwfiff" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End container -->
+  </header>
+  <!-- End header -->
+  <header id="header" class="header-3">
+    <div class="clearfix">
+      <div class="logo2"><a href="index-2.html"><img alt="" src="images/logo500.png"></a></div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index-2.html">Home</a></li>
+          <li><a href="#">About Us</a>
+            <ul>
+              <li><a href="about-us.html">About MWFIFF</a></li>
+              <li><a href="our-team.html">Our Team</a></li>
+              <li><a href="jury.html">Honourable Jury</a></li>
+              <li><a href="why-mwfiff.html">Why MWFIFF</a></li>
+              <li><a href="what-is-mwfiff.html">What is MWFIFF</a></li>
+            </ul>
+          </li>
+          <li class="current_page_item"><a href="submission.html">Submission</a></li>
+		  <li><a href="payment-details.html">Payment Details</a></li>
+          <li><a href="winners.html">Winners</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="#">Gallery</a>
+            <ul>
+              <li><a href="photogallery.html">Photogallery</a></li>
+              <li><a href="media-gallery.html">Media Gallery</a></li>
+              <li><a href="video-gallery.html">Video Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- End navigation -->
+    </div>
+    <!-- End container -->
+  </header>
+  <!-- End header -->
+  <div class="clearfix"></div>
+  <div class="breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Film/Music Video Entry Form </h4>
+        </div>
+        <div class="col-md-6">
+          <div class="crumbs">You are here: <a href="header_2.html">Home</a><span class="crumbs-span">&raquo;</span><span>Film/Music Video Entry Form </span></div>
+        </div>
+      </div>
+      <!-- End row -->
+    </div>
+    <!-- End container -->
+  </div>
+  <!--<div style="width:100%"><img class="img-responsive" alt="" src="images/contact.jpg"></div>-->
+  <!-- End slideshow -->
+  <div class="sections">
+    <div class="container">
+      <div class="row kk_bg">
+        <div class="col-md-12 main-content">
+          <h3 align="center" style="color:#333">&nbsp;</h3>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="alerts">
+                <div class="head-title">
+                  <h4 style="color:#333; line-height:35px;">Film/Music Video  Entry Form :</h4>
+                </div>
+                <div class="comment-form" style="padding-top:20px;">
+                  <form action="https://www.mwfiff.com/mail-3.php" method="post" name="form1" id="form1" onSubmit="return checkFields();"  enctype="multipart/form-data">
+                    <div class="row">
+                      <div class="col-md-2">Film/Music Video Title <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input"> <i class="fa fa-user"></i>
+                          <input name="film_title" id="film_title" type="text" placeholder="Film/Music Video Title" required="required">
+                        </div>
+                      </div>
+                      <div class="col-md-2">Director Name <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input"> <i class="fa fa-user"></i>
+                          <input name="name" id="name" type="text" placeholder="Director Name" required="required">
+                        </div>
+                      </div>
+                      <div class="col-md-2" style="margin-bottom: 20px;">Country <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4" style="margin-bottom: 20px;">
+                        <div class="form-input">
+                          <select class="select-menu form-control" id="country" name="country" required="required">
+                            <option value="">Select Country</option>
+                            <option value="Afghanistan" title="Afghanistan">Afghanistan</option>
+                            <option value="Åland Islands" title="Åland Islands">Aland Islands </option>
+                            <option value="Albania" title="Albania">Albania</option>
+                            <option value="Algeria" title="Algeria">Algeria</option>
+                            <option value="American Samoa" title="American Samoa">American Samoa </option>
+                            <option value="Andorra" title="Andorra">Andorra</option>
+                            <option value="Angola" title="Angola">Angola</option>
+                            <option value="Anguilla" title="Anguilla">Anguilla</option>
+                            <option value="Antarctica" title="Antarctica">Antarctica</option>
+                            <option value="Antigua and Barbuda" title="Antigua and Barbuda">Antigua and Barbuda </option>
+                            <option value="Argentina" title="Argentina">Argentina</option>
+                            <option value="Armenia" title="Armenia">Armenia</option>
+                            <option value="Aruba" title="Aruba">Aruba</option>
+                            <option value="Australia" title="Australia">Australia</option>
+                            <option value="Austria" title="Austria">Austria</option>
+                            <option value="Azerbaijan" title="Azerbaijan">Azerbaijan</option>
+                            <option value="Bahamas" title="Bahamas">Bahamas</option>
+                            <option value="Bahrain" title="Bahrain">Bahrain</option>
+                            <option value="Bangladesh" title="Bangladesh">Bangladesh</option>
+                            <option value="Barbados" title="Barbados">Barbados</option>
+                            <option value="Belarus" title="Belarus">Belarus</option>
+                            <option value="Belgium" title="Belgium">Belgium</option>
+                            <option value="Belize" title="Belize">Belize</option>
+                            <option value="Benin" title="Benin">Benin</option>
+                            <option value="Bermuda" title="Bermuda">Bermuda</option>
+                            <option value="Bhutan" title="Bhutan">Bhutan</option>
+                            <option value="Bolivia, Plurinational State of" title="Bolivia, Plurinational State of">Bolivia, Plurinational State of </option>
+                            <option value="Bonaire, Sint Eustatius and Saba" title="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba </option>
+                            <option value="Bosnia and Herzegovina" title="Bosnia and Herzegovina"> Bosnia and Herzegovina </option>
+                            <option value="Botswana" title="Botswana">Botswana</option>
+                            <option value="Bouvet Island" title="Bouvet Island">Bouvet Island </option>
+                            <option value="Brazil" title="Brazil">Brazil</option>
+                            <option value="British Indian Ocean Territory" title="British Indian Ocean Territory">British Indian Ocean Territory </option>
+                            <option value="Brunei Darussalam" title="Brunei Darussalam">Brunei Darussalam </option>
+                            <option value="Bulgaria" title="Bulgaria">Bulgaria</option>
+                            <option value="Burkina Faso" title="Burkina Faso">Burkina Faso</option>
+                            <option value="Burundi" title="Burundi">Burundi</option>
+                            <option value="Cambodia" title="Cambodia">Cambodia</option>
+                            <option value="Cameroon" title="Cameroon">Cameroon</option>
+                            <option value="Canada" title="Canada">Canada</option>
+                            <option value="Cape Verde" title="Cape Verde">Cape Verde</option>
+                            <option value="Cayman Islands" title="Cayman Islands">Cayman Islands </option>
+                            <option value="Central African Republic" title="Central African Republic"> Central African Republic </option>
+                            <option value="Chad" title="Chad">Chad</option>
+                            <option value="Chile" title="Chile">Chile</option>
+                            <option value="China" title="China">China</option>
+                            <option value="Christmas Island" title="Christmas Island">Christmas Island </option>
+                            <option value="Cocos (Keeling) Islands" title="Cocos (Keeling) Islands"> Cocos (Keeling) Islands </option>
+                            <option value="Colombia" title="Colombia">Colombia</option>
+                            <option value="Comoros" title="Comoros">Comoros</option>
+                            <option value="Congo" title="Congo">Congo</option>
+                            <option value="Congo, the Democratic Republic of the" title="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the </option>
+                            <option value="Cook Islands" title="Cook Islands">Cook Islands</option>
+                            <option value="Costa Rica" title="Costa Rica">Costa Rica</option>
+                            <option value="Côte d'Ivoire" title="Côte d'Ivoire">Côte d'Ivoire </option>
+                            <option value="Croatia" title="Croatia">Croatia</option>
+                            <option value="Cuba" title="Cuba">Cuba</option>
+                            <option value="Curaçao" title="Curaçao">Curaçao</option>
+                            <option value="Cyprus" title="Cyprus">Cyprus</option>
+                            <option value="Czech Republic" title="Czech Republic">Czech Republic </option>
+                            <option value="Denmark" title="Denmark">Denmark</option>
+                            <option value="Djibouti" title="Djibouti">Djibouti</option>
+                            <option value="Dominica" title="Dominica">Dominica</option>
+                            <option value="Dominican Republic" title="Dominican Republic">Dominican Republic </option>
+                            <option value="Ecuador" title="Ecuador">Ecuador</option>
+                            <option value="Egypt" title="Egypt">Egypt</option>
+                            <option value="El Salvador" title="El Salvador">El Salvador</option>
+                            <option value="Equatorial Guinea" title="Equatorial Guinea">Equatorial Guinea </option>
+                            <option value="Eritrea" title="Eritrea">Eritrea</option>
+                            <option value="Estonia" title="Estonia">Estonia</option>
+                            <option value="Ethiopia" title="Ethiopia">Ethiopia</option>
+                            <option value="Falkland Islands (Malvinas)" title="Falkland Islands (Malvinas)"> Falkland Islands (Malvinas) </option>
+                            <option value="Faroe Islands" title="Faroe Islands">Faroe Islands </option>
+                            <option value="Fiji" title="Fiji">Fiji</option>
+                            <option value="Finland" title="Finland">Finland</option>
+                            <option value="France" title="France">France</option>
+                            <option value="French Guiana" title="French Guiana">French Guiana </option>
+                            <option value="French Polynesia" title="French Polynesia">French Polynesia </option>
+                            <option value="French Southern Territories" title="French Southern Territories"> French Southern Territories </option>
+                            <option value="Gabon" title="Gabon">Gabon</option>
+                            <option value="Gambia" title="Gambia">Gambia</option>
+                            <option value="Georgia" title="Georgia">Georgia</option>
+                            <option value="Germany" title="Germany">Germany</option>
+                            <option value="Ghana" title="Ghana">Ghana</option>
+                            <option value="Gibraltar" title="Gibraltar">Gibraltar</option>
+                            <option value="Greece" title="Greece">Greece</option>
+                            <option value="Greenland" title="Greenland">Greenland</option>
+                            <option value="Grenada" title="Grenada">Grenada</option>
+                            <option value="Guadeloupe" title="Guadeloupe">Guadeloupe</option>
+                            <option value="Guam" title="Guam">Guam</option>
+                            <option value="Guatemala" title="Guatemala">Guatemala</option>
+                            <option value="Guernsey" title="Guernsey">Guernsey</option>
+                            <option value="Guinea" title="Guinea">Guinea</option>
+                            <option value="Guinea-Bissau" title="Guinea-Bissau">Guinea-Bissau </option>
+                            <option value="Guyana" title="Guyana">Guyana</option>
+                            <option value="Haiti" title="Haiti">Haiti</option>
+                            <option value="Heard Island and McDonald Islands" title="Heard Island and McDonald Islands">Heard Island and McDonald Islands </option>
+                            <option value="Holy See (Vatican City State)" title="Holy See (Vatican City State)">Holy See (Vatican City State) </option>
+                            <option value="Honduras" title="Honduras">Honduras</option>
+                            <option value="Hong Kong" title="Hong Kong">Hong Kong</option>
+                            <option value="Hungary" title="Hungary">Hungary</option>
+                            <option value="Iceland" title="Iceland">Iceland</option>
+                            <option value="India" title="India">India</option>
+                            <option value="Indonesia" title="Indonesia">Indonesia</option>
+                            <option value="Iran, Islamic Republic of" title="Iran, Islamic Republic of"> Iran, Islamic Republic of </option>
+                            <option value="Iraq" title="Iraq">Iraq</option>
+                            <option value="Ireland" title="Ireland">Ireland</option>
+                            <option value="Isle of Man" title="Isle of Man">Isle of Man</option>
+                            <option value="Israel" title="Israel">Israel</option>
+                            <option value="Italy" title="Italy">Italy</option>
+                            <option value="Jamaica" title="Jamaica">Jamaica</option>
+                            <option value="Japan" title="Japan">Japan</option>
+                            <option value="Jersey" title="Jersey">Jersey</option>
+                            <option value="Jordan" title="Jordan">Jordan</option>
+                            <option value="Kazakhstan" title="Kazakhstan">Kazakhstan</option>
+                            <option value="Kenya" title="Kenya">Kenya</option>
+                            <option value="Kiribati" title="Kiribati">Kiribati</option>
+                            <option value="Korea, Democratic People's Republic of" title="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of </option>
+                            <option value="Korea, Republic of" title="Korea, Republic of">Korea, Republic of </option>
+                            <option value="Kuwait" title="Kuwait">Kuwait</option>
+                            <option value="Kyrgyzstan" title="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Lao People's Democratic Republic" title="Lao People's Democratic Republic">Lao People's Democratic Republic </option>
+                            <option value="Latvia" title="Latvia">Latvia</option>
+                            <option value="Lebanon" title="Lebanon">Lebanon</option>
+                            <option value="Lesotho" title="Lesotho">Lesotho</option>
+                            <option value="Liberia" title="Liberia">Liberia</option>
+                            <option value="Libya" title="Libya">Libya</option>
+                            <option value="Liechtenstein" title="Liechtenstein">Liechtenstein </option>
+                            <option value="Lithuania" title="Lithuania">Lithuania</option>
+                            <option value="Luxembourg" title="Luxembourg">Luxembourg</option>
+                            <option value="Macao" title="Macao">Macao</option>
+                            <option value="Macedonia, the former Yugoslav Republic of" title="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of </option>
+                            <option value="Madagascar" title="Madagascar">Madagascar</option>
+                            <option value="Malawi" title="Malawi">Malawi</option>
+                            <option value="Malaysia" title="Malaysia">Malaysia</option>
+                            <option value="Maldives" title="Maldives">Maldives</option>
+                            <option value="Mali" title="Mali">Mali</option>
+                            <option value="Malta" title="Malta">Malta</option>
+                            <option value="Marshall Islands" title="Marshall Islands">Marshall Islands </option>
+                            <option value="Martinique" title="Martinique">Martinique</option>
+                            <option value="Mauritania" title="Mauritania">Mauritania</option>
+                            <option value="Mauritius" title="Mauritius">Mauritius</option>
+                            <option value="Mayotte" title="Mayotte">Mayotte</option>
+                            <option value="Mexico" title="Mexico">Mexico</option>
+                            <option value="Micronesia, Federated States of" title="Micronesia, Federated States of">Micronesia, Federated States of </option>
+                            <option value="Moldova, Republic of" title="Moldova, Republic of"> Moldova, Republic of </option>
+                            <option value="Monaco" title="Monaco">Monaco</option>
+                            <option value="Mongolia" title="Mongolia">Mongolia</option>
+                            <option value="Montenegro" title="Montenegro">Montenegro</option>
+                            <option value="Montserrat" title="Montserrat">Montserrat</option>
+                            <option value="Morocco" title="Morocco">Morocco</option>
+                            <option value="Mozambique" title="Mozambique">Mozambique</option>
+                            <option value="Myanmar" title="Myanmar">Myanmar</option>
+                            <option value="Namibia" title="Namibia">Namibia</option>
+                            <option value="Nauru" title="Nauru">Nauru</option>
+                            <option value="Nepal" title="Nepal">Nepal</option>
+                            <option value="Netherlands" title="Netherlands">Netherlands</option>
+                            <option value="New Caledonia" title="New Caledonia">New Caledonia </option>
+                            <option value="New Zealand" title="New Zealand">New Zealand</option>
+                            <option value="Nicaragua" title="Nicaragua">Nicaragua</option>
+                            <option value="Niger" title="Niger">Niger</option>
+                            <option value="Nigeria" title="Nigeria">Nigeria</option>
+                            <option value="Niue" title="Niue">Niue</option>
+                            <option value="Norfolk Island" title="Norfolk Island">Norfolk Island </option>
+                            <option value="Northern Mariana Islands" title="Northern Mariana Islands"> Northern Mariana Islands </option>
+                            <option value="Norway" title="Norway">Norway</option>
+                            <option value="Oman" title="Oman">Oman</option>
+                            <option value="Pakistan" title="Pakistan">Pakistan</option>
+                            <option value="Palau" title="Palau">Palau</option>
+                            <option value="Palestinian Territory, Occupied" title="Palestinian Territory, Occupied">Palestinian Territory, Occupied </option>
+                            <option value="Panama" title="Panama">Panama</option>
+                            <option value="Papua New Guinea" title="Papua New Guinea">Papua New Guinea </option>
+                            <option value="Paraguay" title="Paraguay">Paraguay</option>
+                            <option value="Peru" title="Peru">Peru</option>
+                            <option value="Philippines" title="Philippines">Philippines</option>
+                            <option value="Pitcairn" title="Pitcairn">Pitcairn</option>
+                            <option value="Poland" title="Poland">Poland</option>
+                            <option value="Portugal" title="Portugal">Portugal</option>
+                            <option value="Puerto Rico" title="Puerto Rico">Puerto Rico</option>
+                            <option value="Qatar" title="Qatar">Qatar</option>
+                            <option value="Réunion" title="Réunion">Réunion</option>
+                            <option value="Romania" title="Romania">Romania</option>
+                            <option value="Russian Federation" title="Russian Federation">Russian Federation </option>
+                            <option value="Rwanda" title="Rwanda">Rwanda</option>
+                            <option value="Saint Barthélemy" title="Saint Barthélemy">Saint Barthélemy </option>
+                            <option value="Saint Helena, Ascension and Tristan da Cunha" title="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha </option>
+                            <option value="Saint Kitts and Nevis" title="Saint Kitts and Nevis"> Saint Kitts and Nevis </option>
+                            <option value="Saint Lucia" title="Saint Lucia">Saint Lucia</option>
+                            <option value="Saint Martin (French part)" title="Saint Martin (French part)"> Saint Martin (French part) </option>
+                            <option value="Saint Pierre and Miquelon" title="Saint Pierre and Miquelon"> Saint Pierre and Miquelon </option>
+                            <option value="Saint Vincent and the Grenadines" title="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines </option>
+                            <option value="Samoa" title="Samoa">Samoa</option>
+                            <option value="San Marino" title="San Marino">San Marino</option>
+                            <option value="Sao Tome and Principe" title="Sao Tome and Principe">Sao Tome and Principe </option>
+                            <option value="Saudi Arabia" title="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Senegal" title="Senegal">Senegal</option>
+                            <option value="Serbia" title="Serbia">Serbia</option>
+                            <option value="Seychelles" title="Seychelles">Seychelles</option>
+                            <option value="Sierra Leone" title="Sierra Leone">Sierra Leone</option>
+                            <option value="Singapore" title="Singapore">Singapore</option>
+                            <option value="Sint Maarten (Dutch part)" title="Sint Maarten (Dutch part)">Sint Maarten (Dutch part) </option>
+                            <option value="Slovakia" title="Slovakia">Slovakia</option>
+                            <option value="Slovenia" title="Slovenia">Slovenia</option>
+                            <option value="Solomon Islands" title="Solomon Islands">Solomon Islands </option>
+                            <option value="Somalia" title="Somalia">Somalia</option>
+                            <option value="South Africa" title="South Africa">South Africa</option>
+                            <option value="South Georgia and the South Sandwich Islands" title="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands </option>
+                            <option value="South Sudan" title="South Sudan">South Sudan</option>
+                            <option value="Spain" title="Spain">Spain</option>
+                            <option value="Sri Lanka" title="Sri Lanka">Sri Lanka</option>
+                            <option value="Sudan" title="Sudan">Sudan</option>
+                            <option value="Suriname" title="Suriname">Suriname</option>
+                            <option value="Svalbard and Jan Mayen" title="Svalbard and Jan Mayen"> Svalbard and Jan Mayen </option>
+                            <option value="Swaziland" title="Swaziland">Swaziland</option>
+                            <option value="Sweden" title="Sweden">Sweden</option>
+                            <option value="Switzerland" title="Switzerland">Switzerland</option>
+                            <option value="Syrian Arab Republic" title="Syrian Arab Republic">Syrian Arab Republic </option>
+                            <option value="Taiwan, Province of China" title="Taiwan, Province of China"> Taiwan, Province of China </option>
+                            <option value="Tajikistan" title="Tajikistan">Tajikistan</option>
+                            <option value="Tanzania, United Republic of"
+                                                title="Tanzania, United Republic of">Tanzania, United Republic of </option>
+                            <option value="Thailand" title="Thailand">Thailand</option>
+                            <option value="Timor-Leste" title="Timor-Leste">Timor-Leste</option>
+                            <option value="Togo" title="Togo">Togo</option>
+                            <option value="Tokelau" title="Tokelau">Tokelau</option>
+                            <option value="Tonga" title="Tonga">Tonga</option>
+                            <option value="Trinidad and Tobago" title="Trinidad and Tobago">Trinidad and
+                            Tobago </option>
+                            <option value="Tunisia" title="Tunisia">Tunisia</option>
+                            <option value="Turkey" title="Turkey">Turkey</option>
+                            <option value="Turkmenistan" title="Turkmenistan">Turkmenistan</option>
+                            <option value="Turks and Caicos Islands" title="Turks and Caicos Islands">Turks
+                            and Caicos Islands </option>
+                            <option value="Tuvalu" title="Tuvalu">Tuvalu</option>
+                            <option value="Uganda" title="Uganda">Uganda</option>
+                            <option value="Ukraine" title="Ukraine">Ukraine</option>
+                            <option value="United Arab Emirates" title="United Arab Emirates">United Arab
+                            Emirates </option>
+                            <option value="United Kingdom" title="United Kingdom">United Kingdom </option>
+                            <option value="United States" title="United States">United States </option>
+                            <option value="United States Minor Outlying Islands"
+                                                title="United States Minor Outlying Islands">United States Minor
+                            Outlying Islands </option>
+                            <option value="Uruguay" title="Uruguay">Uruguay</option>
+                            <option value="Uzbekistan" title="Uzbekistan">Uzbekistan</option>
+                            <option value="Vanuatu" title="Vanuatu">Vanuatu</option>
+                            <option value="Venezuela, Bolivarian Republic of"
+                                                title="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic
+                            of </option>
+                            <option value="Viet Nam" title="Viet Nam">Viet Nam</option>
+                            <option value="Virgin Islands, British" title="Virgin Islands, British"> Virgin Islands, British </option>
+                            <option value="Virgin Islands, U.S." title="Virgin Islands, U.S.">Virgin
+                            Islands, U.S. </option>
+                            <option value="Wallis and Futuna" title="Wallis and Futuna">Wallis and Futuna </option>
+                            <option value="Western Sahara" title="Western Sahara">Western Sahara </option>
+                            <option value="Yemen" title="Yemen">Yemen</option>
+                            <option value="Zambia" title="Zambia">Zambia</option>
+                            <option value="Zimbabwe" title="Zimbabwe">Zimbabwe</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-2" style="margin-bottom: 20px;">Language <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <input name="language" id="language" type="text" placeholder="Language" required="required">
+                          <!--<select class="select-menu form-control" id="language" name="language">
+                            <option>Select Language</option>
+                            <option value="English">English </option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Gujrati">Gujrati</option>
+                            <option value="Marathi">Marathi</option>
+                            <option value="Punjabi">Punjabi</option>
+                          </select>-->
+                        </div>
+                      </div>
+                      <div class="col-md-2">Running Time <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span>
+                      <span style="font-size: 13px;"> <br><span style="font-size:13px;color:#ff6262;">Video HR = max 6 <br>
+                      Video MIN = max 59   <br>
+                      Video SEC = max 59   <br><br></span></span>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-input">
+                              <input name="hr_1" id="hr_1" type="text" placeholder="HR" required="required" maxlength="1" pattern="([0-6])" title="Maximum Video hour will be 6 hours" onblur="hour_validate()">
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <div class="form-input">
+                              <input name="min_1" id="min_1" type="text" placeholder="MN" required="required" maxlength="2" onKeyPress="return isNumber(event, this)" pattern="[0-5]?[0-9]">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-input">
+                              <input name="sec_1" id="sec_1" type="text" placeholder="SEC" required="required" maxlength="2" onKeyPress="return isNumber(event, this)" pattern="[0-5]?[0-9]">
+                            </div>
+                          </div>
+<span id="hr_1_err"></span>
+                        </div>
+
+                      </div>
+                      <div class="col-md-2">Shooting Format <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input"> <i class="fa fa-bookmark"></i>
+                          <input name="shootingformat" id="shootingformat" type="text" placeholder="Shooting Format" required="required">
+                        </div>
+                      </div>
+                      <div style="clear:both"></div>
+                      <div class="col-md-2">E-mail <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input"> <i class="fa fa-envelope"></i>
+                          <input name="email" id="email" type="email" placeholder="Email" required="required"  pattern="([A-Za-z0-9_\-\.\'])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,6})"/>
+                        </div>
+                      </div>
+                      <div class="col-md-2">Mobile No <span style="font-size:18px; font-family:Open Sans; color:#ff0131">*</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input"> <i class="fa fa-phone"></i>
+                         <input type="text"  class="form-control" id="mob_no" name="mob_no" placeholder="Phone Number"  onkeydown='return (event.which >= 48 && event.which <= 57) || event.which == 8 || event.which == 46 || event.which == 37 || event.which == 39 || (event.which >= 96 && event.which <= 105) || event.which == 32'  maxlength="15" required />
+                          </input>
+                        </div>
+                      </div>
+                      <div class="col-md-2" style="margin-bottom: 20px;"></div>
+                      <div class="col-md-10" style="margin-bottom: 20px;">
+                        <div class="form-input">
+						  <span style="color:red; font-size:17px;">*</span>
+                          <select class="select-menu form-control" id="yeari" name="yeari" required="required">
+                            <option value="">Select Production Year</option>
+                            <option value="1980" title="1980">1980 </option>
+                            <option value="1981" title="1981">1981</option>
+                            <option value="1982" title="1982">1982</option>
+                            <option value="1983" title="1983">1983</option>
+                            <option value="1984" title="1984">1984</option>
+                            <option value="1985" title="1985">1985</option>
+                            <option value="1986" title="1986">1986</option>
+                            <option value="1987" title="1987">1987</option>
+                            <option value="1988" title="1988">1988</option>
+                            <option value="1989" title="1989">1989</option>
+                            <option value="1990" title="1990">1990</option>
+                            <option value="1991" title="1991">1991</option>
+                            <option value="1992" title="1992">1992</option>
+                            <option value="1993" title="1993">1993</option>
+                            <option value="1994" title="1994">1994</option>
+                            <option value="1995" title="1995">1995</option>
+                            <option value="1996" title="1996">1996</option>
+                            <option value="1997" title="1997">1997</option>
+                            <option value="1998" title="1998">1998</option>
+                            <option value="1999" title="1999">1999</option>
+                            <option value="2000" title="2000">2000</option>
+                            <option value="2001" title="2001">2001</option>
+                            <option value="2002" title="2002">2002</option>
+                            <option value="2003" title="2003">2003</option>
+                            <option value="2004" title="2004">2004</option>
+                            <option value="2005" title="2005">2005</option>
+                            <option value="2006" title="2006">2006</option>
+                            <option value="2007" title="2007">2007</option>
+                            <option value="2008" title="2008">2008</option>
+                            <option value="2009" title="2009">2009</option>
+                            <option value="2010" title="2010">2010</option>
+                            <option value="2011" title="2011">2011</option>
+                            <option value="2012" title="2012">2012</option>
+                            <option value="2013" title="2013">2013</option>
+                            <option value="2014" title="2014">2014</option>
+                            <option value="2015" title="2015">2015</option>
+                            <option  value="2016" title="2016">2016</option>
+                            <option value="2017" title="2017">2017</option>
+                            <option value="2018" title="2018">2018</option>
+                            <option value="2019" title="2019">2019</option>
+                            <option value="2020" title="2020">2020</option>
+                            <option value="2021" title="2021">2021</option>
+                            <option value="2022" title="2022">2022</option>
+                            <option value="2023" title="2023">2023</option>
+                            <option value="2024" title="2024">2024</option>
+                            <option value="2025" title="2025">2025</option>
+                          </select>
+                        </div>
+                      </div><br>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-10">
+                        <div class="form-input"> <i class="fa fa-comment"><sup><span style="color:red; font-size:17px;">*</span></sup></i>
+                          <textarea name="main_cast" id="main_cast" placeholder="Main Cast" required></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-10">
+                        <div class="form-input">
+                          <span style="color:red; font-size:17px;">*</span><input name="film_viewing" id="film_viewing" type="text" placeholder="Film/Music Video Viewing & Download Link" required>
+                        </div>
+                      </div>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <span style="color:red; font-size:17px;">*</span><input name="view_movie" id="view_movie" type="text" placeholder="Password to view movie/music video" required>
+                        </div>
+                      </div>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <span style="color:red; font-size:17px;">*</span><input name="tt_link" id="tt_link" type="text" placeholder="Trailer / Teaser Link" required>
+                        </div>
+                      </div>
+                      <!-- <div class="col-md-4" style="margin-bottom: 20px;"></div> -->
+                      <div class="col-md-3" style="margin-bottom: 20px;">
+                        <div class="form-input">
+                          <span style="color:red; font-size:17px;">*</span><select class="select-menu form-control" id="film" name="film" required>
+                            <option value="">Released or not Released</option>
+                            <option value="Released" required>Released </option>
+                            <option value="Not Released" required>Not Released </option>
+                          </select>
+                        </div>
+                      </div>
+                      <!-- <div class="col-md-2" style="margin-bottom: 20px;"></div> -->
+                      <div class="col-md-4" style="margin-bottom: 20px;">
+                        <div class="form-input">
+                          <span style="color:red; font-size:17px;">*</span><select class="select-menu form-control" id="category" name="category" required>
+                            <option value="">Select Category</option>
+                            <option value="Film Short" required>Film Short</option>
+                             <option value="Film Short International" required>Film Short International</option>
+                            <option value="Student Short" required>Student Short</option>
+                            <option value="Student Short International" required>Student Short International</option>
+                            <option value="Animation Short" required>Animation Short</option>
+                            <option value="Animation Short International" required>Animation Short International</option>
+                            <option value="Amature Short" required>Amature Short</option>
+                            <option value="Amature Short International" required>Amature Short International</option>
+							<option value="Film Short Regional" required>Film Short Regional</option>
+							<option value="Music Video" required>Music Video</option>
+							<option value="Music Video International" required>Music Video International</option>
+							<option value="Music Video International" required>Music Video Pop / RnB</option>
+							<option value="Music Video International" required>Music Video International Pop / RnB</option>
+							<option value="Music Video International" required>Music Video Ghazal</option>
+							<option value="Music Video International" required>Music Video Regional</option>
+							<option value="Web-Series" required>Web-Series</option>
+							<option value="Web-Series International" required>Web-Series International</option>
+							<option value="Documentary Feature" required>Documentary Feature</option>
+							<option value="Documentary Feature international" required>Documentary Feature International</option>
+							<option value="Film Feature" required>Film Feature</option>
+							<option value="Film Feature International" required>Film Feature International</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-2"> </div>
+                      <div class="col-md-10">
+                        <div class="form-input"> <i class="fa fa-comment"><sup><span style="color:red; font-size:17px;">*</span></sup></i>
+                           <textarea name="syponsis" id="syponsis" placeholder="Syponsis " required></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12"><strong> <br>
+					   
+					 			  </strong></div>
+                      <div class="col-md-2">Director Photograph <span style="font-size:13px;color:#ff6262;">(Max. file Size : 2MB)</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <input name="myfile" id="myfile" type="file">
+                        </div>
+                      </div>
+                      <div class="col-md-2">Film Poster <span style="font-size:13px;color:#ff6262;">(Max. file Size : 2MB)</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <input name="myfile2" id="myfile2" type="file">
+                        </div>
+                      </div>
+                      <div style="clear:both"></div>
+                      <div class="col-md-2">Film Stills <span style="font-size:13px;color:#ff6262;">(Max. file Size : 2MB)</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <input name="myfile3" id="myfile3" type="file">
+                        </div>
+                      </div>
+                      <div class="col-md-2">Only for Indian films (if film is Censored, attach the Censor Board Certificate)<br/><span style="font-size:13px;color:#ff6262;">(Max. file Size : 2MB)</span></div>
+                      <div class="col-md-4">
+                        <div class="form-input">
+                          <input name="myfile4" id="myfile4" type="file">
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="col-md-12">
+                        <h4 style="color:#E03E25"><sup><span style="color:red; font-size:22px;">*</span></sup>Submission Guidelines</h4>
+                        <div class="checkbox-custom checkbox-default" >
+                          <!-- <input type="hidden" required id="checkboxExample1" name="checkboxExample1" value="OFF">-->
+                          <input type="checkbox" required id="checkboxExample1" name="checkboxExample1" value="Checked">
+                          <label for="checkboxExample1">I Agree</label>
+                          <div id="textname_kk">
+                            <p align="justify" style="font-size:13px;"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i>Films/Music Video in any languages other than English, must have English Subtitles, otherwise they shall not be considered.<B>DCP / J2K File would be Compulsory if the film is selected for Screening in the Film Festival or Extra Cost would be charged if the filmmakers wants us to convert the file for the same. Extra Cost For the Film Conversion Would be $25 per movie.</B> </p>
+                            <p align="justify" style="font-size:13px;"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i>The Festival accepts only films/music videos without watermarks. </p>
+                            <p align="justify" style="font-size:13px;"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i>Only Trailers or promos cannot be submitted for selection process.</p>
+                            <p align="justify" style="font-size:13px;"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i>Films/Music Videos which have no online presence can be submitted by sending two full HD DVDs by courier to the Festival office along with a hard copy of this form duly filled. Kindly label the DVDs with title, director name, duration, phone number and email id on it. </p>
+                            <p align="justify" style="font-size:13px;"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i>For submissions coming from outside India, the packages must be marked, “For Festival & Cultural Purpose only, No Commercial value”. selection.</p>
+                          </div>
+                        </div>
+                        <h4 style="color:#E03E25"><sup><span style="color:red; font-size:22px;">*</span>Terms & Conditions</sup></h4>
+                        <div class="checkbox-custom checkbox-default">
+                          <input type="hidden" id="checkboxExample1_1" name="checkboxExample1_1" required value="UnChecked">
+                          <input type="checkbox" id="checkboxExample1_1" name="checkboxExample1_1" required value="Checked">
+                          <!--<label style="font-size:12px; font-weight:500; font:'Trebuchet-Ms'" for="checkboxExample1_1">I Accept Responsibility for the accuracy of the information supplied in all sections and I authorize the Festival to reproduce company contact information in its publications exactly as supplied.  I ACCEPT all the Submission Guidelines & the Terms and Conditions mentioned here in.</label>-->
+                          <label for="checkboxExample1_1">I Accept Responsibility for the accuracy of the information supplied in all sections and I authorize the Festival to reproduce company contact information in its publications exactly as supplied. I ACCEPT all the Submission Guidelines & the Terms and Conditions mentioned here in.</label>
+                          <div id="textname_kk_1">
+                            <p align="justify" style="font-size:13px;">01. &nbsp;&nbsp;The Film can be in any language or any genre. <B> All Non-English Films must have English Subtitles for Festival Presentation.</B></p>
+                            <p align="justify" style="font-size:13px;">02. &nbsp;&nbsp;MWFIFF reserves the right to include the film or video and related material in its promotional activities.</p>
+                            <p align="justify" style="font-size:13px;">03. &nbsp;&nbsp;All Decisions made by the Appointed “Selection Committee” Or "Jury" regarding Selections, Screenings, Awards at the Festival in entirety will be the final decision. In case of Dispute, the decision of the Selection Committee shall be final.</p>
+                            <p align="justify" style="font-size:13px;">04. &nbsp;&nbsp;The filmmakers and their representatives undertake to use the official logo and the status of their Selection or Award strictly in conformation with MWFIFF designs and they further undertake to use such festival logo in all their promotions, posters and marketing publications with the consent of the festival.</p>
+                            <p align="justify" style="font-size:13px;">05. &nbsp;&nbsp;A film, series, documentary, music video etc selected for the festival does not run in competition automatically. Selection Committee or a Jury will select the films, series, music video, etc that feature in the Competition.</p>
+                            <p align="justify" style="font-size:13px;">06. &nbsp;&nbsp;The Festival shall not bear / reimburse any freight or other charges in foreign or Indian currency.</p>
+                            <p align="justify" style="font-size:13px;">07. &nbsp;&nbsp;Once the film, documentary, music video etc officially selected for screening, or for the awards the film, music video, series etc shall not be withdrawn in any circumstance.</p>
+                            <p align="justify" style="font-size:13px;">08. &nbsp;&nbsp;Exceptions to the festival's regulations must be authorized by the Festival Director.</p>
+                            <p align="justify" style="font-size:13px;">09. &nbsp;&nbsp;MWFIFF or any of its team members will not be responsible for late, lost, damaged, misdirected, postage due, stolen entries, any error or technical problems while offline or online submissions or any loss or damage due to virus etc.</p>
+                            <p align="justify" style="font-size:13px;">10. &nbsp;&nbsp;Submissions must be entrants original work and shall not infringe on any copyrights, entrants agree that they have obtained all necessary copyrights permission regarding music, sound, and images etc.</p>
+                            <p align="justify" style="font-size:13px;">11. &nbsp;&nbsp;MWFIFF or it's team will not be held liable for any copyright violation by you or your film, music video, etc</p>
+                            <p align="justify" style="font-size:13px;">12. &nbsp;&nbsp;MWFIFF reserves all rights not to screen any film, music video, series, etc for any reason it deems valid. </p>
+                            <p align="justify" style="font-size:13px;">13. &nbsp;&nbsp;MWFIFF reserves the rights to change , cancel or reschedule the dates, venue, awards and categories without any consent or information to contestants.</p>
+                            <p align="justify" style="font-size:13px;"><b>14. &nbsp;&nbsp;The Opening Date of Entries is 11th Jan 2026 and tentative closing date will be 25th OCTOBER 2026. Tentatively Date of intimation of selection will be 27th OCTOBER 2026.</p></b>
+                            <p align="justify" style="font-size:13px;">15. &nbsp;&nbsp;Indian Entries under all the categories shall be of Films Certified by the Information and Broadcasting Ministry or Central Board of Film Certification, India.</p>
+                            <p align="justify" style="font-size:13px;">16. &nbsp;&nbsp;All Students Films must include proof of student status with the submission (i.e. copy of current and valid student I.D.) or their film will not be judged as a student film and could be disqualified.</p>
+                            <p align="justify" style="font-size:13px;">17. &nbsp;&nbsp;MWFIFF reserves the right to showcase the films, music videos, documentary, etc once submitted perpetually anywhere in the world through any format present available now or in future.</p>
+                            <p align="justify" style="font-size:13px;">18.The applicant should ensure that the address or the email id shared with us in the application should be correct as it may be used by the film festival office for communication.
+
+<p align="justify" style="font-size:13px;">19. &nbsp;&nbsp;Entries can be PAL or NTSC format. Festival Management will not be responsible if the film is not screened due to problems with the DVD format, pen drive, or any error in the link or password shared with us.</p>
+
+<p align="justify" style="font-size:13px;">20. &nbsp;&nbsp;Multiple Entries can be submitted, but with separate entry forms, DVD / USB Pen drive, synopsis/description, still photographs, press kit should be enclosed. Each film, music video, series, documentary etc, is considered as a new entry and each of them will require an appropriate Entry Fee. Note: No Submission Form Will Be Accepted Without The Appropriate Payment Of The Fee.</p>
+
+              <p align="justify" style="font-size:13px;">21. &nbsp;&nbsp;The publicity or any such materials (Brochure, Stills, Poster, Photographs, DVD’s pen drive etc.) shall not be returned to the entrant.</p>
+
+              <p align="justify" style="font-size:13px;">22. &nbsp;&nbsp;Transportation and insurance costs of DVDs, pen drive etc related documents, photographs, publicity materials etc from the Country of Origin to the Festival Office shall be borne by the applicant. The festival or any team members, etc will not be responsible for the parcel with the airport authority of India or Custom department. The Custom duties shall be paid by the Filmmaker or the Producers.</p>
+
+              <p align="justify" style="font-size:13px;">23. &nbsp;&nbsp;The festival will not bear any expenses regarding lodging, boarding, traveling etc of the applicant during the film festival event.</p>
+
+              <p align="justify" style="font-size:13px;">24. &nbsp;&nbsp;No work or artist will be either discriminated against or favored by their country of origin, language, age, race, education, gender, ideology, or by their economic resources etc. Every content, every form, every technique will be admitted with no censorship of any kind.</p>
+
+              <p align="justify" style="font-size:13px;">25. &nbsp;&nbsp;Finalists will be notified through email. Moonwhite Films International Film Fest will use its best efforts to announce the selected films, winners at the designated time, but will not be held liable for any unforeseen delays. The list of selected films will be displayed on website and our official facebook page ( If possible).</p>
+
+              <p align="justify" style="font-size:13px;">26. &nbsp;&nbsp;By entering the Moonwhite Films International Film Fest- MWFIFF, contestants and/or their parents or legal guardian (if such entrant is a minor) agree to accept and be bound by the decisions of the Festival and its judges or committee members which are final and binding in all matters.</p>
+
+              <p align="justify" style="font-size:13px;">27. &nbsp;&nbsp;Festival Authorities reserve the right to accept or reject any film that is likely to offend sentiments, feelings, sensibilities etc of any caste, community, religion and sector is likely to promote racism or ill will in the society.</p>
+
+              <p align="justify" style="font-size:13px;">28.  &nbsp;&nbsp;Entry constitutes permission to use the winner's name, pics, posters, promo links, films, voice etc for present and future promotions, advertising and publicity purposes without any compensation.</p>
+
+              <p align="justify" style="font-size:13px;">29. &nbsp;&nbsp;Affidavits of winners under 18 years of age at time of award must be countersigned by parent or legal guardian. Affidavits are subject to verification by the Moonwhite Films International Film Fest. All the legal issues, if any, shall be under the jurisdiction of Mumbai Subordinate and Courts only.</p>
+
+<p align="justify" style="font-size:13px;">30. &nbsp;&nbsp;The Moonwhite Films International Film Fest has negotiated with listed hotels and may provide shuttle services with ticketing on discounted rates. The festival herein is a mere facilitator and shall not be liable for any mis-happening occurring with respect to the said hotel/ shuttle/ transportation or ticketing services.</p>
+
+<p align="justify" style="font-size:13px;">31. &nbsp;&nbsp;<B> DCP / J2K File would be Compulsory if the film is selected for Screening in the Film Festival or Extra Cost would be charged if the filmmakers wants us to convert the file for the same. Extra Cost For the Film Conversion Would be $25 per movie.</B></p>
+
+              <p align="justify" style="font-size:13px;">32. &nbsp;&nbsp;Winners will have to pay Courier, Customs charges, tax, etc to receive the Trophy if not able to collect it on the date of the Event. No Refund Of Submission Fee will be Entertained Once it is paid. </p
+              
+              <p align="justify" style="font-size:13px;">33.  &nbsp;&nbsp;Any corrections if needed once the awards have been announced shall only be taken into consideration if communicated through Letter Head ONLY of the film producer(s), film director, film actors, film actresses etc. In case of Dispute, decision of the Selection Committee, and Jury shall be final.</p>
+
+			<div class="clearfix"></div>
+			
+<div class="clearfix"></div>
+<br><p style="color:#E03E25"><strong>Indemnify –</strong></p>
+<p>You agree to defend, indemnify, and hold harmless and innocent 'www.mwfiff.com' and / or its associate entities, their officers, directors, employees, jury's and agents from and against any claims, actions or demands, including without limitation reasonable, monetary, legal and accounting fees, alleging or resulting from your use of the web site material ( MWFIFF ), services such as assessment tools or your breach of these terms and conditions of website use.</p>
+
+<br><p style="color:#E03E25"><strong>Visitors -</strong></p>
+<p>You as the visitor / submitter are responsible for the outcome. In no event shall MWFIFF be liable to you in relation to an unsuccessful outcome. MWFIFF is also free from other damages and punitive actions such as incidental or consequential damage which includes unsuccessful outcome ( Transaction Hang up ) and in case of excess amount being paid for festival submission charges.</p>
+
+<br><p style="color:#E03E25"><strong>Data Loss / Leak -</strong></p>
+<p>MWFIFF shall not be responsible for any data loss or leak or any such activity due to computer virus, hacking or any other such issues unknown. MWFIFF is also not bound to offer any compensation in case your computer / laptop, mobile device or any other such electronic device known now or comes in near future is rendered incapable due to an array of reasons such as technical glitches or attacks.</p>
+
+<br><p style="color:#E03E25"><strong>Refund -</strong></p>
+<p>Our refund policy is extremely simple and transparent. The fees once paid through any mode of payment gateway available through our website shall not be refunded at any cost or circumstance.</p>
+                          </div>
+                          
+                          <br><h4 style="color:#E03E25">Shipping</h4>
+                          
+                          <p align="justify" style="font-size:13px;">The cost of any shipping to the festivals must be paid by the entrant. Collect or C.O.D. shipment will not be accepted. All international entries must be sent "Free domicile" to the festival office with all transportation charges, duties and taxes prepaid by the shipper. Be sure to include all the proper customs documentation, charges etc required by the shipping company.
+
+*Films which are already released on youtube or any other digital format or cinema theater will NOT be screened in the festival but it CAN BE SUBMITTED and would be ELIGIBLE for the competition, however, the final decisions of Screening of the movies shall be the call of “Selection Committee” Or the "Jury".</p>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <p>&nbsp;</p>
+                      <div class="col-md-3"><img id="captcha" src="captcha.png" width="160" height="35" border="1" alt="CAPTCHA"></div>
+                      <div class="col-md-3"><small><a href="javascript:void(0)">
+                        <button type="button" class="button-3" onClick="vb();"> REFRESH</button>
+                        </a></small></div>
+                      <div class="col-md-3">
+                        <input class="form-control" placeholder="Enter Captchacode" name="captcha_code" id="captcha_code" type="text" onKeyUp="this.value = this.value.replace(/[^\d]+/g, '');check_code();" onBlur="check_code(); return valida();" required="required"/>
+                        <span id="captcha_c" style="color:#F00;">
+                        <input type="hidden" id="ch_cap" name="ch_cap" value="1">
+                        </span></div>
+                      <div class="col-md-3">
+                        <input type="submit" name="submit" class="button-3" value="Submit" onClick="return check_empty();" />
+                        <!--<button type="submit" class="button-3" onClick="return check_empty();"> Submit</button>-->
+                      </div>
+                    </div>
+                    <!-- End row -->
+                    <script type="text/javascript">
+				function check_code()
+					{   
+						var captcha_code=document.getElementById("captcha_code").value;
+							if (window.XMLHttpRequest)
+					{
+				xmlhttp=new XMLHttpRequest();
+					}
+				else
+					{
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+					}
+xmlhttp.onreadystatechange=function()
+{
+if (xmlhttp.readyState==4) 
+{
+if(xmlhttp.status==200) 
+{    
+document.getElementById("captcha_c").innerHTML=xmlhttp.responseText;
+}
+}
+}
+xmlhttp.open("GET.html","captcha-check-ajex03d2.html?q="+captcha_code,true);
+xmlhttp.send();
+}
+</script>
+                    <script>
+			function vb()
+			{
+				document.getElementById('captcha').src = 'captchad41d.png?' + Math.random();
+  document.getElementById('captcha_code').value = '';
+  return false;
+			}
+			
+			</script>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Client sections -->
+  <div class="sections sections-padding-b-20 kk_bg4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-widget">
+            <div class="widget-title kk_colr">
+              <h6>About Us</h6>
+            </div>
+            <div class="widget-about">
+              <p>MWFIFF intends to organize a festival that connects the film fans & film makers with the entire world, especially the serious filmmakers commercial or non commercal & their associates so as to bring about greater understanding of the Art of film making. </p>
+              <div class="social-ul">
+                <ul>
+                  <li class="social-facebook"><a href="https://www.facebook.com/Mwfiff-1504902836296421/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="social-twitter"><a href="https://twitter.com/mwfiff" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="social-youtube"><a href="https://www.youtube.com/channel/UC0bjxmsags54JmGp_uFCI2g" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                  <li class="social-instagram"><a href="https://www.instagram.com/mwfiff/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li class="social-pinterest"><a href="https://www.pinterest.com/mwfiff/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                  <li class="social-linkedin"><a href="https://www.linkedin.com/in/mwfiff-moonwhite-films-international-film-fest-b91488157/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="social-vimeo"><a href="https://vimeo.com/mwfiff" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-widget">
+            <div class="widget-title kk_colr">
+              <h6>Get In Touch</h6>
+            </div>
+            <div class="widget-about-2">
+              <ul>
+                <li> <i class="fa fa-map-marker"></i>
+                  <div class="s_kk_q" style="color:#959595">Nestle, Malad West., Mumbai - 400064. INDIA</div>
+                </li>
+                <li> <i class="fa fa-phone"></i>
+                  <div class="s_kk_q" style="color:#959595"><a href="tel:+919920307879">+ 91 - 9920 - 307 - 879</a></div>
+                  <div class="s_kk_q" style="color:#959595"><a href="tel:+912242954923">+ 91 - 22 - 4295 - 4923</a></div>
+                </li>
+                <li> <i class="fa fa-envelope"></i>
+                  <div class="s_kk_q"><a href="mailto:contact@mwfiff.com">contact@mwfiff.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-widget">
+            <div class="widget-title kk_colr">
+              <h6>Footer Link</h6>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="widget-posts">
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="index-2.html">Home</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="about-us.html">About Us</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="our-team.html">Our Team</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="jury.html">Honourable Jury</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="submission.html">Submission</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="winners.html">Winners</a></div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="widget-posts">
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="awards.html">Awards</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="events.html">Events</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="membership.html">Membership</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="photogallery.html">Photogallery</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="media-gallery.html">Media Gallery</a></div>
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="video-gallery.html">Video Gallery</a></div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="widget-posts">
+                  <div class="s_kk_q" style="font-size:13px; line-height:25px"><i style="padding-right:20px;" class="fa fa-angle-double-right"></i><a href="contact-us.html">Contact Us</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End row -->
+    </div>
+  </div>
+  <!-- End footer-bottom -->
+  <footer id="footer-bottom">
+    <div class="container">
+      <div class="copyrights">Copyright © 2026. All rights reserved.</div>
+      <nav class="navigation-footer">
+        <ul>
+          <li class="s_kk_q"><a href="terms-condition.html">Terms & Condition</a></li>
+          <li>|</li>
+          <li  class="s_kk_q"><a href="faq.html">FAQ's</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End container -->
+  </footer>
+</div>
+<!-- End wrap -->
+<div class="go-up"><i class="fa fa-chevron-up"></i></div>
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/html5.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/count-to.js"></script>
+<script src="js/twitter/jquery.tweet.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+function checkvalue(){
+	//var checkname=document.getElementById("checkname").checked;
+	if(document.getElementById("checkboxExample1").checked==true){
+		document.getElementById("textname_kk").style.display="block";
+	} else {
+		document.getElementById("textname_kk").style.display="none";
+	}
+}
+</script>
+<script>
+function checkvalue_1(){
+	//var checkname=document.getElementById("checkname").checked;
+	if(document.getElementById("checkboxExample1_1").checked==true){
+		document.getElementById("textname_kk_1").style.display="block";
+	} else {
+		document.getElementById("textname_kk_1").style.display="none";
+	}
+}
+</script>
+<script>
+    // fund transfer amount restrict other than decimal number
+
+    function isNumber(evt, element) {
+
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+
+        if (
+                (charCode != 46 || $(element).val().indexOf('.') != -1) &&      // “.” CHECK DOT, AND ONLY ONE.
+                (charCode < 48 || charCode > 57))
+            return false;
+
+        return true;
+    }
+</script>
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl504944'},{'dcenter':'p3'},{'cp_id':'10876977'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
+<!-- Mirrored from www.mwfiff.com/entry-form.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Apr 2026 04:16:55 GMT -->
+</html>
